@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Вывеска, наружная реклама, световой короб, стенд, табличка, баннер" />
+  <title>
+    Все виды наружной рекламы, монтаж, ремонт и обслуживание вывесок.
+    Согласование с городской администрацией.
+  </title>
+  <meta name="description"
+    content="Опыт работы в сфере наружной рекламы более 10 лет. Гарантия качества. Индвидуальный подход. Работа на результат" />
+  <link type="text/css" href="style.css?ver145" rel="stylesheet" />
+  <link href="/fonts/muller/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="fav-icon.png" type="image/png" />
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" src="/yandex-metrica.js"></script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/64460794" alt="" />
+    </div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+  <!-- Подключение библиотеки jQuery -->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Подключение jQuery плагина Masked Input -->
+  <script src="jquery.maskedinput.min.js"></script>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <div class="wrapper">
+    <div class="header">
+      <span class="header-title" id="schedule">режим работы: ПН-ПТ: 9.00-18.00</span>
+      <div class="header-block" id="email">
+        <a href="mailto:maxreklama82@gmail.com">
+          <img title="Написать" class="img-header" src="/img/icones/icon-post.png" />
+          <a href="mailto:maxreklama82@gmail.com"><span class="header-title">maxreklama82@gmail.com</span></a>
+        </a>
+      </div>
+      <div class="header-block">
+        <a href="tel:+79519986145">
+          <img href="tel:+79519986145" title="Позвонить" class="img-title" src="/img/icones/icones_tel.png" />
+          <a href="tel:+79519986145"><span class="header-title">8(951)998-61-45</span></a>
+        </a>
+      </div>
+      <span class="header-title" id="adress">
+        <a data-goto=".map-wrapper" href="#" class="menu__link">адрес: Чебоксары, ул.Машиностроителей, 11в</a>
+      </span>
+      <button class="btn-header">Сделать заказ</button>
+    </div>
+    <div class="header-conteiner">
+      <img class="logo" src="/img/icones/logo_prev.png" />
+      <nav class="menu__body">
+        <ul class="menu-list">
+          <li class="menu__link-mobile">
+            <a data-goto=".page-section__text-block" href="#" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__link-mobile">
+            <a class="menu__link">Услуги</a>
+            <ul class="menu-sub__list">
+              <li class="menu-sub__link">
+                <a data-goto=".page-section__bukvi" href="#" class="menu__link">Объемные буквы</a>
+              </li>
+              <li class="menu-sub__link">
+                <a data-goto=".page-section__koroba" href="#" class="menu__link">Световые короба</a>
+              </li>
+              <li class="menu-sub__link">
+                <a data-goto=".page-section__nesvetovie-viveski" href="#" class="menu__link">Несветовые вывески</a>
+              </li>
+              <li class="menu-sub__link">
+                <a data-goto=".page-section__baneri" href="#" class="menu__link">Баннеры</a>
+              </li>
+              <li class="menu-sub__link">
+                <a data-goto=".page-section__tablichki" href="#" class="menu__link">Таблички и стенды</a>
+              </li>
+              <li class="menu-sub__link">
+                <a data-goto=".page-section__remont-vivesok" href="#" class="menu__link">Ремонт вывесок</a>
+              </li>
+              <li class="menu-sub__link">
+                <a data-goto=".page-section__reklama-na-avto" href="#" class="menu__link">Реклама на авто</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__link-mobile">
+            <a data-goto=".page-seciton__price" href="#" class="menu__link">Цены</a>
+          </li>
+          <li class="menu__link-mobile">
+            <a data-goto=".page-seciton__slider-gallery" href="#" class="menu__link">Галерея</a>
+          </li>
+          <li class="menu__link-mobile">
+            <a data-goto=".page-seciton__contact" href="#" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu__icon">
+        <span></span>
+        <p class="icon__text">Меню</p>
+      </div>
+    </div>
+    <div class="none"></div>
+    <div class="pop_up">
+      <div class="pop_up-content">
+        <img class="logo-pic" src="/img/pop-up/logo12.png" />
+        <img class="icon-close" src="/img/pop-up/icon-close1.png" />
+        <p>Создание сайтов</p>
+      </div>
+    </div>
+    <h1>Изготовление наружной рекламы</h1>
+    <div class="callMe">
+      <a href="tel:+79519986145"  title="Позвонить"> 
+      <img src="/img/icones/callback.png">
+      </a>
+    </div>
+    <div class="slider-wrapper">
+      <div class="slider">
+        <div class="slider__block">
+          <img class="slider_img" src="/img/slider-header/obemnie bukvi.jpg" alt="" />
+          <div class="text-block__slider">
+            <p class="title-h2">ОБЪЕМНЫЕ БУКВЫ</p>
+            <p class="text">
+              Объемные буквы (логотипы) придают вывеске особый колорит и
+              эффектность. Их можно использовать как в уличных вывесках, так и
+              внутри помещения. Объемные буквы делятся на световые и
+              несветовые. В качестве внутренней подсветки используются в
+              основном светодиоды или светодиодные ленты.
+            </p>
+          </div>
+        </div>
+        <div class="slider__block">
+          <img class="slider_img" src="/img/slider-header/nesvetovie viveski.jpg" alt="" />
+          <div class="text-block__slider">
+            <p class="title-h2">НЕСВЕТОВЫЕ ВЫВЕСКИ</p>
+            <p class="text">
+              Несветовые вывески относятся к более бюджетному варианту
+              наружной рекламы. Основные материалы, которые применяются - это
+              сотовый поликарбонат (разной толщины), ПВХ, композит (АКП) и
+              оцинковка.
+            </p>
+          </div>
+        </div>
+        <div class="slider__block">
+          <img class="slider_img" src="/img/slider-header/svetovoi korob.jpg" alt="" />
+          <div class="text-block__slider">
+            <p class="title-h2">СВЕТОВЫЕ КОРОБА</p>
+            <p class="text">
+              Световой короб (лайт-бокс) - должен быть заметным как в светлое
+              время суток, так и в темное. В этом его главное отличие от
+              несветовых. Помимо эстетического внешнего вида, световая вывеска
+              выполняет и практическую задачу - привлекать внимание в темное
+              время суток.
+            </p>
+          </div>
+        </div>
+        <div class="slider__block">
+          <img class="slider_img" src="/img/slider-header/banner.jpg" alt="" />
+          <div class="text-block__slider">
+            <p class="title-h2">БАННЕРЫ</p>
+            <p class="text">
+              Баннеры являются пожалуй, самым дешевым видом наружной рекламы.
+              аннеры различаются по плотности материала. Например, баннер
+              плотностью 340 гр/м хорошо подойдет для интерьерной рекламы,
+              т.е. внутри помещения. Для уличного применения лучше
+              использовать 440 гр/м.
+            </p>
+          </div>
+        </div>
+        <div class="slider__block">
+          <img class="slider_img" src="/img/slider-header/tablichka.JPG" alt="" />
+          <div class="text-block__slider">
+            <p class="title-h2">СТЕНДЫ И ТАБЛИЧКИ</p>
+            <p class="text">
+              Стенды и таблички обычно изготавливаются из ПВХ, композитного
+              материала (АКП) и оцинковки. Оклейка производится  полноцветной
+              печатью, либо пленками ORACAL или AVERY. Интересные таблички
+              получаются при использовании фрезеровки на раскроечном станке.
+            </p>
+          </div>
+        </div>
+        <div class="slider__block">
+          <img class="slider_img" src="/img/slider-header/avto.jpg" alt="" />
+          <div class="text-block__slider">
+            <p class="title-h2">РЕКЛАМА НА АВТО</p>
+            <p class="text">
+              На легковом автомобиле имеется четыре основных места, куда можно
+              наклеить рекламу - это капот, левый борт, правый борт и заднее
+              стекло. Наклейки выполняются с помощью высокачественной
+              виниловой немецкой пленки ORACAL и американской пленки AVERY
+            </p>
+          </div>
+        </div>
+        <div class="slider__block">
+          <img class="slider_img" src="/img/slider-header/remont viveski.jpg" alt="" />
+          <div class="text-block__slider">
+            <p class="title-h2">РЕМОНТ И ОБСЛУЖИВАНИЕ</p>
+            <p class="text">
+              Средний срок службы рекламной вывески составляет 2-3 года, в
+              зависимости от материалов для ее изготовления. После чего
+              начинают появляться разные дефекты.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-wrapper">
+      <button class="btn btn-prev">PREV</button>
+      <button class="btn btn-next">NEXT</button>
+    </div>
+    <div class="page-section__text-block">
+      <p class="main-text">
+        Изготовим световые короба, баннеры, объемные буквы, штендеры,
+        таблички, стенды, аппликации на авто и стекло, монтажные работы.
+        Предлагаем широкий ассортимент комплектующих и материалов. Гибкая
+        ценовая политика. При необходимости разработаем дизайн-макет, возьмем
+        на себя согласование с администрацией города. Замер и составление
+        сметы бесплатно. Один год обслуживаем наши изделия по гарантии.
+      </p>
+      <p class="main-text">
+        Главная цель наружной рекламы - это привлечение потенциальных
+        потребителей вашей продукции или услуг. С первого взгляда может
+        показаться, что все очень просто. На самом деле это далеко не так, как
+        и в любой сфере тут есть свои нюансы. Имея многолетний опыт в
+        рекламной сфере мы стараемся предложить клиенту оптимальный вариант.
+        Желание заказчика сэкономить на изготовлении вывески естественно и
+        понятно. Однако, это может негативно повлиять на
+        эффективность рекламы. Например, один клиент, не смотря на все наши
+        доводы заказал баннер 2х1 метр (хотя было достаточно места под
+        рекламу), который повесили на высоте 5-6 этажа. Естественно на такой
+        высоте текст на таком баннере будет очень мелким, и вряд ли будет
+        работать. Через два месяца он позвонил с просьбой снять баннер, т.к.
+        ни одного звонка так и не поступило. Для того, чтобы реклама работала
+        - она должна быть хорошо видна.
+      </p>
+      <p class="main-text">
+        Так же важна подача информации. Не следует размещать много текста.
+        Достаточно выделить самую  главную информацию.
+        Немалую роль играет дизайн вывески. Грамотно подобранные цвета и
+        шрифты делают вывеску читабельной и заметной. Вывеска должна хорошо
+        вписываться в фасад здания и с соседними вывесками, если они есть (что
+        является одним из требований администрации города при согласовании). В
+        настоящее время в рекламной индустрии имеется большой ассортимент
+        материалов и комплектующих. Стоимость рекламной вывески во многом
+        зависит от выбора материалов для ее изготовления и способов обработки.
+        Таким образом, одну и ту же вывеску можно изготовить из бюджетных
+        материалов или более дорогих, но более долговечных. Основные расценки
+        на рекламную продукцию вы можете узнать здесь. Так же есть возможность
+        существенно сэкономить и снизить затраты на рекламу. Подробности
+        здесь. Итак, мы предлагаем индивидуальный подход к каждому клиенту,
+        гибкую ценовую политику и нацеленность на результат.
+      </p>
+    </div>
+    <main>
+      <h2 class="page-section__bukvi">Объемные буквы</h2>
+      <p class="discribe-section">
+        Объемные буквы (логотипы) придают вывеске особый колорит и
+        эффектность. Их можно использовать как в уличных вывесках, так и
+        внутри помещения. Объемные буквы можно монтировать непосредственно к
+        стене, каркасу или на фриз.
+      </p>
+      <p class="discribe-section">
+        Объемные буквы делятся на световые и несветовые. В световых буквах в
+        качестве внутренней подсветки используются в основном светодиоды
+        разных видов или светодиодные ленты.
+      </p>
+      <p class="discribe-section">
+        Лицевая поверхность и борта изготавливаются из акрилового стекла, ПВХ
+        или композита (АКП). Иногда применяют объемные буквы с контражуром,
+        когда подсветка направлена в сторону стены или поверхности.
+      </p>
+      <section class="section">
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi1.jpg" alt="Объемные световые буквы на изогнутом каркасе"
+            title="Объемные световые буквы на изогнутом каркасе. Изготовление" />
+          <p class="img-title">
+            Объемные световые буквы на изогнутом каркасе. Изготовление
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi2.jpg" alt="Объемные световые буквы (ЕРМАК)"
+            title="Объемные световые буквы (ЕРМАК)" />
+          <p class="img-title">
+            Объемные световые буквы (ЕРМАК). Монтаж с автовышки
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi10.jpg" alt="Объемные несветовые буквы."
+            title="Объемные несветовые буквы." />
+          <p class="img-title">
+            Объемные несветовые буквы. Лицевая поверхность - акрил, борта -
+            ПВХ
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi4.jpg"
+            alt="Комплексное оформление. Объемные световые буквы на каркасе"
+            title="Комплексное оформление. Объемные световые буквы на каркасе" />
+          <p class="img-title">
+            Комплексное оформление. Объемные световые буквы на каркасе.
+            Козырек - ковка
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi5.jpg" alt="Крышная конструкция. Объемные световые буквы"
+            title="Крышная конструкция. Объемные световые буквы" />
+          <p class="img-title">
+            Крышная конструкция. Объемные световые буквы. Оклейка пленкой
+            ORACAL
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi6.jpg" alt="Крышная конструкция. Объемные световые буквы"
+            title="Крышная конструкция. Объемные световые буквы" />
+          <p class="img-title">
+            Крышная конструкция. Объемные световые буквы. Подсветка -
+            светодиодными модулями. Оклейка пленкой ORACAL
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi7.jpg" alt="Объемные несветовые буквы"
+            title="Объемные несветовые буквы" data="/img/obemnie bukvi/obevnie bukvi7.jpg" />
+          <p class="img-title">
+            Объемные несветовые буквы. Оклейка металлизированной пленкой.
+            Монтаж
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi11.jpg" alt="Объемные световые буквы. Световой короб. Козырек"
+            title="Объемные световые буквы. Световой короб. Козырек" data="/img/obemnie bukvi/obevnie bukvi8.jpg" />
+          <p class="img-title">
+            Комплексное оформление фасада здания. Объемные световые буквы.
+            Световой короб. Козырек
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/obemnie bukvi/obevnie bukvi9.jpg" alt="Объемные световые буквы на металлокаркасе"
+            title="Объемные световые буквы на металлокаркасе" data="/img/obemnie bukvi/obevnie bukvi9.jpg" />
+          <p class="img-title">
+            Объемные световые буквы на металлокаркасе. Подсветка -
+            светодиодными модулями. Монтаж с автовышки
+          </p>
+        </div>
+      </section>
+      <h2 class="page-section__koroba">Световые короба (лайтбоксы)</h2>
+      <p class="discribe-section">
+        Световой короб(вывеска) - должен быть заметным как в светлое время
+        суток, так и в темное. В этом его главное отличие от несветовых.
+      </p>
+      <p class="discribe-section">
+        Помимо эстетического внешнего вида, световая вывеска выполняет и
+        практическую задачу - привлекать внимание в темное время суток.
+        Длительность светового дня очень сильно зависит от времени года. Зимой
+        день короче, чем летом. Для удобства, можно сделать время включения
+        подсветки автоматическим. Это делается с помощью фотореле или реле
+        времени, что позволяет сэкономить на электроэнергии.
+      </p>
+      <p class="discribe-section">
+        Световые короба по способу подсветки делятся на светодиодные и
+        ламповые (люминисцентные). В качестве лицевой поверхности можно
+        использовать сотовый поликарбонат, акриловое стекло или композит
+        (АКП), в случае фрезеровки. Лицевую поверхность может быть обклеена
+        полноцветной печатью, либо пленками ORACAL или AVERY, что делает
+        вывеску более яркой и контрастной, и прослужит гораздо дольше
+        благодаря своим свойствам.
+      </p>
+      <section class="section">
+        <div class="bukvi-card">
+          <img src="/img/svetovie koroba/svetovoi korob1.jpg" alt="Световой короб. Борта - квадропрофиль, лицо - акрил"
+            title="Световой короб. Борта - квадропрофиль, лицо - акрил"
+            data="/img/svetovie koroba/svetovoi korob1.jpg" />
+          <p class="img-title">
+            Световой короб. Борта - квадропрофиль, лицо - акрил. Подсветка -
+            светодиодными модулями
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/svetovie koroba/svetovoi korob2.jpg" alt="Двухсторонний клеевой короб на кронштейне"
+            title="Двухсторонний клеевой короб на кронштейне" data="/img/svetovie koroba/svetovoi korob2.jpg" />
+          <p class="img-title">
+            Двухсторонний клеевой короб на кронштейне. Подсветка -
+            светодиодными модулями
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/svetovie koroba/svetovoi korob3.jpg" alt="Световой короб на металлокаркасе"
+            title="Световой короб на металлокаркасе" data="/img/svetovie koroba/svetovoi korob3.jpg" />
+          <p class="img-title">
+            Световой короб на металлокаркасе. Подсветка - светодиодными
+            модулями. Оклейка пленкой ORACAL 641
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/svetovie koroba/svetovoi korob4.jpg"
+            alt="Световые короба. Борт - квадвропрофиль. Подсветка - светодиодные лампы"
+            title="Световые короба. Борт - квадвропрофиль. Подсветка - светодиодные лампы"
+            data="/img/svetovie koroba/svetovoi korob4.jpg" />
+          <p class="img-title">
+            Световые короба. Борт - квадвропрофиль. Подсветка - светодиодные
+            лампы. Оклейка широкоформатной печатью на светорассеивающей пленке
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/svetovie koroba/svetovoi korob5.jpg"
+            alt="Световой клеевой короб. Борта, задняя стенка - ПВХ, лицо - акрил"
+            title="Световой клеевой короб. Борта, задняя стенка - ПВХ, лицо - акрил"
+            data="/img/svetovie koroba/svetovoi korob5.jpg" />
+          <p class="img-title">
+            Световой клеевой короб. Борта, задняя стенка - ПВХ, лицо - акрил
+            оклееныый широкоформатной печатью на светорассеивающей пленке
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/svetovie koroba/svetovoi korob6.jpg" alt="Подвесной световой короб (меню)"
+            title="Подвесной световой короб (меню)" data="/img/svetovie koroba/svetovoi korob6.jpg" />
+          <p class="img-title">
+            Подвесной световой короб (меню). Внутренний каркас из алюминиевой
+            трубы. Подсветка светодиодными модулями
+          </p>
+        </div>
+      </section>
+      <h2 class="page-section__nesvetovie-viveski">Несветовые вывески</h2>
+      <p class="discribe-section">
+        Несветовые вывески относятся к более бюджетному варианту наружной
+        рекламы. Основные материалы, которые применяются - это сотовый
+        поликарбонат (разной толщины), ПВХ, композит (АКП) и оцинковка. На эти
+        поверхности наклеивается широкоформатная печать (интерьерная печать -
+        более дорогая, для использования внутри помещения) и аппликации из
+        пленок ORACAL или AVERY.
+      </p>
+      <p class="discribe-section">
+        Для большей долговечности делается ламинирование, которое защищает от
+        механических повреждений и ультрафиолета УФ. При необходимости можно
+        добавить наружную подсветку, которая выполняется в виде светодиодных
+        прожекторов, установленных на выносные кронштейны.
+      </p>
+      <p class="discribe-section">
+        Есть варинт с оклейкой окон, что является самым дешевым вариантом.
+      </p>
+      <section class="section">
+        <div class="bukvi-card">
+          <img src="/img/nesvetovie viveski/nesvetovie viveski7.jpg"
+            alt="Несветовая вывеска. Основание АКП - алюминиевый композит"
+            title="Несветовая вывеска. Основание АКП - алюминиевый композит" />
+          <p class="img-title">
+            Несветовая вывеска. Основание АКП - алюминиевый композит.
+            Фрезеровка, закатка пленками ORACAL 641. Аппликация
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/nesvetovie viveski/nesvetovie viveski2.jpg" alt="Несветовые вывески. Основание - АКП, оклейка широкоформатной
+            печатью" title="Несветовые вывески. Основание - АКП, оклейка широкоформатной
+            печатью" />
+          <p class="img-title">
+            Несветовые вывески. Основание - АКП, оклейка широкоформатной
+            печатью. Монтаж
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/nesvetovie viveski/nesvetovie viveski3.jpg"
+            alt="Несветовая вывеска. Основание - сотовый поликарбонат"
+            title="Несветовая вывеска. Основание - сотовый поликарбонат" />
+          <p class="img-title">
+            Несветовая вывеска. Основание - сотовый поликарбонат, закатка
+            пленками ORACAL 641. Аппликация
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/nesvetovie viveski/nesvetovie viveski4.jpg" alt="Сотовый поликарбонат, оклейка широкоформатной
+            печатью" title="Сотовый поликарбонат, оклейка широкоформатной
+            печатью" />
+          <p class="img-title">
+            Несветовая вывеска. Сотовый поликарбонат, оклейка широкоформатной
+            печатью. Подсветка светодиодными прожекторами
+          </p>
+          <p></p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/nesvetovie viveski/nesvetovie viveski5.jpg"
+            alt="Баннер натянутый на деревянный каркас. Маркиза"
+            title="Баннер натянутый на деревянный каркас. Маркиза" />
+          <p class="img-title">
+            Несветовая вывеска. Баннер натянутый на деревянный каркас. Маркиза
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/nesvetovie viveski/nesvetovie viveski6.jpg" alt="Двухсторонняя панель-кронштейн"
+            title="Двухсторонняя панель-кронштейн" />
+          <p class="img-title">
+            Несветовая вывеска. Сотовый поликарбонат, оклейка широкоформатной
+            печатью. Двухсторонняя панель-кронштейн
+          </p>
+        </div>
+      </section>
+      <h2 class="page-section__baneri">Баннеры</h2>
+      <p class="discribe-section">
+        Баннеры являются пожалуй, самым дешевым видом наружной рекламы.
+        Баннеры различаются по плотности материала. Например, баннер
+        плотностью 340 гр/м хорошо подойдет для интерьерной рекламы, т.е.
+        внутри помещения. Для уличного применения лучше использовать 440 гр/м.
+        Если баннер большой, то необходимо делать армирование, т.е. пропускать
+        веревку по периметру проклейки.
+      </p>
+      <p class="discribe-section">
+        Существуют два основных способа крепления баннера - с помощью люверсов
+        или на скобу с деревянным каркасом. Для натяжки через люверсы
+        необходим монтаж металлического каркаса. Более дешевым вариантом
+        является баннер на деревянном каркасе. Но тут имеется ограничения по
+        размерам.
+      </p>
+      <section class="section">
+        <div class="bukvi-card">
+          <img src="/img/banneri/baner1.jpg" alt="Баннер на люверсах, натянутый на металлокаркас"
+            title="Баннер на люверсах, натянутый на металлокаркас" />
+          <p class="img-title">
+            Баннер на люверсах, натянутый на металлокаркас. Проклейка по
+            периметру
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/banneri/baner2.jpg" alt="Баннер натянутый на деревянный каркас"
+            title="Баннер натянутый на деревянный каркас" />
+          <p class="img-title">
+            Баннер натянутый на деревянный каркас. Монтаж
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/banneri/baner3.jpg" alt="Баннеры на люверсах, проклейка по периметру, армирование"
+            title="Баннеры на люверсах, проклейка по периметру, армирование" />
+          <p class="img-title">
+            Баннеры на люверсах, проклейка по периметру, армирование. Монтаж
+            металлокаркасов, натяжка веревкой
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/banneri/baner4.jpg" alt="широкоформатная печать на баннерной ткани"
+            title="широкоформатная печать на баннерной ткани" />
+          <p class="img-title">
+            широкоформатная печать на баннерной ткани. Люверсовка, проклейка
+            по периметру. Монтаж
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/banneri/baner5.jpg" alt="Баннер на люверсах" title="Баннер на люверсах" />
+          <p class="img-title">
+            Баннер на люверсах. Натяжка с помощью веревки. Монтаж
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/banneri/baner6.jpg" alt="Баннер на люверсах. Наружняя подсветка"
+            title="Баннер на люверсах. Наружняя подсветка" />
+          <p class="img-title">
+            Баннер на люверсах. Наружняя подсветка светодиодным прожектором.
+            Монтаж
+          </p>
+        </div>
+      </section>
+      <h2 class="page-section__tablichki">Таблички и стенды</h2>
+      <p class="discribe-section">
+        Стенды и таблички обычно изготавливаются из ПВХ, композитного
+        материала (АКП) и оцинковки. Оклейка осуществляется полноцветной
+        печатью, либо пленками ORACAL или AVERY.
+      </p>
+      <p class="discribe-section">
+        Карманы для стендов делаются из ПЭТ и акрила разной толщины. Карманы
+        могут быть объемные и плоские.Интересные таблички получаются при
+        использовании фрезеровки на раскроечном станке.
+      </p>
+      <section class="section">
+        <div class="bukvi-card">
+          <img src="/img/tablichki i stendi/tablichki1.jpg" alt="Режим работы. Основание - АКП"
+            title="Режим работы. Основание - АКП" />
+          <p class="img-title">
+            Режим работы. Основание - АКП, аппликация пленой ORACAL.
+            Обрамление - ковка
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/tablichki i stendi/tablichki2.jpg" alt=" Таблички. Обрамление - ковка"
+            title=" Таблички. Обрамление - ковка" />
+          <p class="img-title">
+            Таблички. Обрамление - ковка, аппликация пленой ORACAL
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/tablichki i stendi/tablichki3.jpg" alt="Придорожные указатели" title="Придорожные указатели" />
+          <p class="img-title">
+            Придорожные указатели. Основание - АКП, оклейка - широкоформатная
+            печать. Согласование. Монтаж
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/tablichki i stendi/tablichki4.jpg" alt="Режим работы. Стенд с карманами"
+            title="Режим работы. Стенд с карманами" />
+          <p class="img-title">
+            Режим работы. Основание - ПВХ, оклейка - широкоформатная печать.
+            Стенд с карманами
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/tablichki i stendi/tablichki5.jpg" alt="Адресная табличка" title="Адресная табличка" />
+          <p class="img-title">
+            Адресная табличка. Основание, борта - ПВХ, аппликация пленой
+            ORACAL
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/tablichki i stendi/tablichki6.jpg" alt="Панно, фигурная стрелка"
+            title="Панно, фигурная стрелка" />
+          <p class="img-title">
+            Панно, фигурная стрелка. Основание - ПВХ, оклейка -
+            широкоформатная печать
+          </p>
+        </div>
+      </section>
+      <h2 class="page-section__remont-vivesok">
+        Ремонт и обслуживание вывесок
+      </h2>
+      <p class="discribe-section">
+        Средний срок службы рекламной вывески составляет 2-3 года, в
+        зависимости от материалов для ее изготовления. После чего начинают
+        появляться разные дефекты. Это может быть пленка, которая отклеивается
+        от основания, или пленка/печать выцвела и потеряла свою яркость. У
+        световых вывесок начинают возникать проблемы со светотехникой (лампы,
+        светодиоды, блоки питания, ЭПРА и т.д. )
+      </p>
+      <p class="discribe-section">
+        В связи с этим предлагаем свои услуги по ремонту вывесок. Ниже будут
+        приведены некоторые примеры и пояснения.
+      </p>
+      <section class="section">
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski1.jpg" alt="Замена блока питания" title="Замена блока питания" />
+          <p class="img-title">
+            Ремонт вывески. Устранение неисправности. Замена блока питания.
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski4.jpg" alt="Замена старых светодиодов на новые"
+            title="Замена старых светодиодов на новые" />
+          <p class="img-title">
+            Ремонт вывески. Замена старых светодиодов на новые линзованные
+            модули
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski2.jpg" alt="Замена старых светодиодов на новые"
+            title="Замена старых светодиодов на новые" />
+          <p class="img-title">
+            Ремонт вывесок. Ремонт вывески. Замена старых светодиодов на новые
+            линзованные модули
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski3.jpg" alt="Результат работы" title="Результат работы" />
+          <p class="img-title">Ремонт вывесок. Результат работы</p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski5.jpg" alt="Демонтаж старых букв. Реставрация"
+            title="Демонтаж старых букв. Реставрация" />
+          <p class="img-title">
+            Ремонт вывесок. Демонтаж старых букв. Реставрация
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski6.jpg" alt="Реставрация букв. Установка новых светодиодов"
+            title="Реставрация букв. Установка новых светодиодов" />
+          <p class="img-title">
+            Реставрация букв. Ремонт, демонтаж старой пленки, чистка,
+            установка новых светодиодов
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski7.jpg" alt="Результат проделанных работ"
+            title="Результат проделанных работ" />
+          <p class="img-title">Результат проделанных работ</p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski8.jpg" alt="Замена дросселей и ламп"
+            title="Замена дросселей и ламп" />
+          <p class="img-title">
+            Ремонт вывесок. Устранение неиспрваности. Замена дросселей и ламп
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/remont viveski/remont viveski9.jpg" alt="Результат проделанных работ"
+            title="Результат проделанных работ" />
+          <p class="img-title">Ремонт вывесок. Результат проделанных работ</p>
+        </div>
+      </section>
+      <h2 class="page-section__reklama-na-avto">Реклама на авто</h2>
+      <p class="discribe-section">
+        На легковом автомобиле имеется четыре основных места, куда можно
+        наклеить рекламу - это капот, левый борт, правый борт и заднее стекло.
+      </p>
+      <p class="discribe-section">
+        Наклейки выполняются с помощью высокачественной виниловой немецкой
+        пленки ORACAL и американской пленки AVERY, которые являются мировыми
+        лидерами в производстве самоклеящихся пленок. Использование этих
+        пленок, при граммотном сочетании цветов, делает наклейки -яркими,
+        эффектными и прослужат не менее 1 года.
+      </p>
+      <p class="discribe-section">
+        Также в качестве наклейки можно использовать широкоформатную печать.
+        Для увеличения долговечности необходимо заламинировать поверхность
+      </p>
+      <section class="section">
+        <div class="bukvi-card">
+          <img src="/img/reklama na avto/reklama na avto1.jpg" alt="Брендирование автомобиля"
+            title="Брендирование автомобиля" />
+          <p class="img-title">
+            Реклама на авто. Оклейка пленками ORACAL 641. Прогревание феном
+            для долговечности
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/reklama na avto/reklama na avto2.jpg" alt="Оклейка фургона" title="Оклейка фургона" />
+          <p class="img-title">
+            Реклама на фургоне. Оклейка бортов широформатной печатью с
+            ламинацией, аппликация на задние двери
+          </p>
+        </div>
+        <div class="bukvi-card">
+          <img src="/img/reklama na avto/reklama na avto3.jpg" alt="Комплексное оформление. Оклейка пленками ORACAL"
+            title="Комплексное оформление. Оклейка пленками ORACAL" />
+          <p class="img-title">
+            Реклама на авто. Комплексное оформление. Оклейка пленками ORACAL
+            641
+          </p>
+        </div>
+      </section>
+    </main>
+    <h2 class="page-seciton__price">Цены</h2>
+    <p class="discribe-section">
+      В данной таблице указаны цены на некоторые категории рекламной
+      продукции. Цены являются ориентировочными, т.к. зависят от материалов
+      используемых для изготовления, количества и т.д. Все подробности вы
+      можете уточнить у нашего менеджера.
+    </p>
+    <table class="price">
+      <tr>
+        <th>Наименование</th>
+        <th>Описание</th>
+        <th>Ед/изм</th>
+        <th>Цена</th>
+        <th>Изображение</th>
+      </tr>
+      <tr>
+        <td>
+          <p class="price_text"><b>Световой короб ламповый (лайт-бокс)</b></p>
+        </td>
+        <td>
+          <p class="price_text">
+            Борт - квадропрофиль, задняя стенка - ПВХ/оцинковка, подсветка -
+            светодиодные лампы, лицевая поверхность - акрил, оклейка
+            светорассеивающей пленкой/широкоформатной печатью
+          </p>
+        </td>
+        <td class="price_block">
+          <p>кв.м.</p>
+        </td>
+        <td class="price_block">
+          <p>от 7000</p>
+        </td>
+        <td class="price_block-img">
+          <img src="/img/price/svetovoi_korob_lampovyi.png" height="100" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="price_text">
+            <b>Световой короб светодиодный (лайт-бокс)</b>
+          </p>
+        </td>
+        <td>
+          <p class="price_text">
+            Борт - квадропрофиль, задняя стенка - ПВХ/оцинковка, подсветка -
+            светодиодные модули, лицевая поверхность - акрил, оклейка
+            светорассеивающей пленкой/широкоформатной печатью
+          </p>
+        </td>
+        <td class="price_block">
+          <p>кв.м.</p>
+        </td>
+        <td class="price_block">
+          <p>от 8000</p>
+        </td>
+        <td class="price_block-img">
+          <img src="/img/price/svetovoi_korob_svetodiodny.png" height="100" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="price_text"><b>Объемные несветовые буквы из ПВХ</b></p>
+        </td>
+        <td>
+          <p class="price_text">
+            Борт - ПВХ, задняя стенка - ПВХ, лицевая поверхность - ПВХ,
+            оклейка пленкой ORACAL 641/широкоформатной печатью
+          </p>
+        </td>
+        <td class="price_block">
+          <p>см</p>
+        </td>
+        <td class="price_block">
+          <p>от 50</p>
+        </td>
+        <td class="price_block-img">
+          <img src="/img/price/obemnaya_nesvetovaya_bukva.png" height="100" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="price_text"><b>Объемные световые буквы</b></p>
+        </td>
+        <td>
+          <p class="price_text">
+            Борт - ПВХ оклейка пленкой ORACAL 641/широкоформатной печатью,
+            задняя стенка - ПВХ, лицевая поверхность - акриловое стекло
+            оклейка светорассеивающией пленокой/широкоформатной печатью,
+            подсветка светодиодами
+          </p>
+        </td>
+        <td class="price_block">
+          <p>см</p>
+        </td>
+        <td class="price_block">
+          <p>от 80</p>
+        </td>
+        <td class="price_block-img">
+          <img src="/img/price/obemnaya_svetovaya_bukva.png" height="100" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="price_text"><b>Стенды с 4 карманами</b></p>
+        </td>
+        <td>
+          <p class="price_text">
+            Основание - ПВХ, карманы А-4 изготовленные из ПЭТ 0,5 мм, оклейка
+            пленкой ORACAL 641
+          </p>
+        </td>
+        <td class="price_block">
+          <p>шт.</p>
+        </td>
+        <td class="price_block">
+          <p>от 1400</p>
+        </td>
+        <td class="price_block-img">
+          <img src="/img/price/stendi_4rarmana.png" height="100" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="price_text"><b>Стенды с 6 карманами</b></p>
+        </td>
+        <td>
+          <p class="price_text">
+            Основание - ПВХ, карманы А-4 изготовленные из ПЭТ 0,5 мм, оклейка
+            пленкой ORACAL 641
+          </p>
+        </td>
+        <td class="price_block">
+          <p>шт.</p>
+        </td>
+        <td class="price_block">
+          <p>от 2100</p>
+        </td>
+        <td class="price_block-img">
+          <img src="/img/price/stendi_6rarmanov.png" height="100" />
+        </td>
+      </tr>
+    </table>
+    <h2 class="page-seciton__slider-gallery">Галерея</h2>
+    <div class="slider-gallery">
+      <div class="slider-line_gallery">
+        <img src="img/slider-gallery/baner1.jpg" alt="" />
+        <img src="img/slider-gallery/baner2.jpg" alt="" />
+        <img src="img/slider-gallery/baner3.jpg" alt="" />
+        <img src="img/slider-gallery/baner6.jpg" alt="" />
+        <img src="img/slider-gallery/nesvetovie viveski2.jpg" alt="" />
+        <img src="img/slider-gallery/nesvetovie viveski3.jpg" alt="" />
+        <img src="img/slider-gallery/nesvetovie viveski4.jpg" alt="" />
+        <img src="img/slider-gallery/nesvetovie viveski7.jpg" alt="" />
+        <img src="img/slider-gallery/obevnie bukvi1.jpg" alt="" />
+        <img src="img/slider-gallery/obevnie bukvi11.jpg" alt="" />
+        <img src="img/slider-gallery/obevnie bukvi5.jpg" alt="" />
+        <img src="img/slider-gallery/obevnie bukvi6.jpg" alt="" />
+        <img src="img/slider-gallery/obevnie bukvi8.jpg" alt="" />
+        <img src="img/slider-gallery/reklama na avto1.jpg" alt="" />
+        <img src="img/slider-gallery/reklama na avto3.jpg" alt="" />
+        <img src="img/slider-gallery/svetovoi korob1.jpg" alt="" />
+        <img src="img/slider-gallery/svetovoi korob2.jpg" alt="" />
+        <img src="img/slider-gallery/svetovoi korob3.jpg" alt="" />
+        <img src="img/slider-gallery/svetovoi korob6.jpg" alt="" />
+        <img src="img/slider-gallery/tablichki1.jpg" alt="" />
+        <img src="img/slider-gallery/tablichki2.jpg" alt="" />
+        <img src="img/slider-gallery/tablichki6.jpg" alt="" />
+      </div>
+    </div>
+    <div class="gallery-wrapper">
+      <button class="btn gallery_btn-prev">PREV</button>
+      <button class="btn gallery_btn-next">NEXT</button>
+    </div>
+    <h2 class="page-seciton__contact">Контакты</h2>
+    <div class="map-wrapper">
+      <div class="block-contact">
+        <script type="text/javascript" charset="utf-8" async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4b0b8de5369e4157c48ae1d5d0635dd7844b6d6bcf3c18de86f15feeec4a7e37&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+      <div class="block-contact">
+        <img src="/img/icones/logo_prev.png" />
+        <h3><b>МаксРеклама</b></h3>
+        <li>
+          <p><b>График работы:</b> ПН-ПТ 9.00-18.00</p>
+        </li>
+        <li>
+          <p><b>Контактный телефон:</b> 8(951)998-61-45</p>
+        </li>
+        <li>
+          <p><b>Электронная почта:</b> maxreklama82@gmail.com</p>
+        </li>
+      </div>
+    </div>
+    <div class="container-form">
+      <form id="feedback-form" class="mainform" action="mail.php" method="POST">
+        <h3 class="form-title">Online заявка</h3>
+        <img class="icon-close_form" src="/img/pop-up/icon-close.png" />
+        <div class="name">
+          <label for="name">Ваше имя*</label>
+          <input type="text" name="user_name" placeholder="Например, Иван" />
+        </div>
+        <div class="fone-number">
+          <label for="name">Телефон*</label>
+          <input type="text" id="phone" name="user_phone" placeholder="+7(999) 999-99-99" />
+          <script>
+            //Код jQuery, установливающий маску для ввода телефона элементу input
+            //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+            $(function () {
+              //2. Получить элемент, к которому необходимо добавить маску
+              $("#phone").mask("+7(999) 999-99-99");
+            });
+          </script>
+        </div>
+        <div class="email">
+          <label for="name">Электронная почта</label>
+          <input type="text" id="user_email" name="user_email" placeholder="mail@mail.ru" />
+        </div>
+        <div class="msg">
+          <label for="name">Ваше сообщение*</label>
+          <textarea name="user_text" class="msg-form"></textarea>
+        </div>
+        <div class="form-send">
+          <p>*Поля обязательные для заполнения</p>
+          <div class="send">
+            <input type="submit" value="Отправить" />
+          </div>
+        </div>
+        <div class="spam">
+          <input name="spam" type="text">
+        </div>
+      </form>
+    </div>
+    <button class="btn-sidebar">ONLINE-ЗАЯВКА</button>
+    <img class="icone_top" src="/img/icones/icone_top.png" />
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="header-block" id="email">
+          <a href="mailto:maxreklama82@gmail.com">
+            <img title="Написать" class="img-header" src="/img/icones/icon-post.png" />
+            <a href="mailto:maxreklama82@gmail.com"><span class="header-title">maxreklama82@gmail.com</span></a>
+          </a>
+        </div>
+        <div class="header-block">
+          <a href="tel:+79519986145">
+            <img href="tel:+79519986145" title="Позвонить" class="img-title" src="/img/icones/icones_tel.png" />
+            <a href="tel:+79519986145"><span class="header-title">8(951)998-61-45</span></a>
+          </a>
+        </div>
+        <span class="header-title" id="adress">адрес: Чебоксары, ул.Машиностроителей, 11в</span>
+        <button class="btn-footer">Сделать заказ</button>
+      </div>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+
+</html>
